@@ -175,7 +175,7 @@ header{
 }
 
 .default.light{
-    background-color: #f7f7f7;
+    background-color: #e6dfdf;
 }
 .default.light .section-title,
 .default.light .section-body{
@@ -364,10 +364,13 @@ header{
     display: flex;
     height: 100%;
     align-items: center;
-    color: #FFF;
+    color: rgb(0, 0, 0);
     justify-content: center;
     flex-direction: column;
+    padding: 25px;
+
 }
+
 
 
 .section-time-area .sliders-pointers{
@@ -391,3 +394,189 @@ header{
 .active{
     background-color: #B28756;
 }
+.section-time-avatar{
+    width: 150px;
+    height: auto;
+}
+.section-time-name{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 17px;
+    margin-top: 30px;
+}
+
+.section-time-role{
+    font-size: 14px;
+    color: #999;
+    margin-top: 5;
+}
+.section-time-social{
+    display: flex;
+    margin-top: 20px;
+}
+.section-time-social a{
+    display: inline-flex;
+    width: 25px;
+    height: 25px;
+    justify-content: center;
+    align-items: center;
+    background-color: #ccc;
+    border-radius: 13px;
+    margin-right: 10px;
+
+}
+.section-time-social a:hover{
+    background-color: #B28756;
+
+}
+
+.section-clients{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.avatar-client{
+    margin: auto;
+    width: 190px;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+.quote-image{
+    width: 25px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.section-clients h4,p {
+    text-align: center;
+   
+}
+.section-clients h4{
+    font-weight: 700;
+    font-size: 20px;
+}
+.section-clients .first-p{
+    font-weight: 600;
+}
+.section-clients .second-p{
+    color: rgb(116, 109, 109);
+    font-weight: 600;
+}
+
+.bg-white{
+    background-color: #fff;
+}
+.partnership{
+    background-color: #fff;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    border: 0.5px solid #ccc;
+    
+}
+.section-partner-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-partner-images img{
+    margin: auto;
+    margin-left: 100px;
+    
+}
+
+
+.section-prices{
+    display: flex;
+    justify-content: center;
+    
+}
+.section-prices .price{
+    display: flex;
+    width: 300px;
+    padding: 20px;
+    background-color: #FFF;
+    margin-left: 20px;
+    flex-direction: column;
+    text-align: center;
+    
+
+}
+.section-prices h5{
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.section-prices h4{
+    font-size: 30px;
+    color: #555;
+}
+.section-prices .month{
+    text-transform: uppercase;
+    color: #999;
+    font-size: 11px;
+    margin-bottom: 25px;
+}
+.section-prices  .li{
+    font-size: 12px;
+    font-weight: 600;
+    color: #999;
+    text-align: center;
+    margin-top: 20px;
+    margin: auto;
+    
+}
+.section-prices .choose{
+    margin-top: 25px;
+    padding: 17px;
+    border-radius: 20px;
+    color: #fff;
+    background-color: #333;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 15px;
+    border: none;
+
+}
+.section-prices .choose:hover{
+    background-color: #B28756;
+}
+
+
+
+.section-premium{
+    display: flex;
+}
+.section-image-box{
+    flex: 1;
+}
+.section-includes{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.section-includes .check{
+    display: inline-block;
+
+}
+.feature{
+    margin-bottom: 25px;
+}
+.feature h3,li{
+    text-transform: uppercase;
+    margin-left: 20px;
+    list-style: none;
+}
+fe
+.feature h3{
+    font-size: 20px;
+}
+.feature p, .list{
+    color: #999;
+    padding-top: 10px;
+    text-align: start;
+}
+
